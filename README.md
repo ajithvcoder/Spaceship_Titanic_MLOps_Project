@@ -52,4 +52,16 @@ AWS_REGION = us-east-1
 
 AWS_ECR_LOGIN_URI = only till .com
 
-ECR_REPOSITORY_NAME = simple-app
+ECR_REPOSITORY_NAME = nameofrepo
+
+
+## Values Added in this repo
+1. I used different type of dataset, neural network framework used by Krish Naik 
+2. I have introduced a db connection in pipeline which is cassandra db
+3. I have used torchserve to deploy with onnx
+4. I tried using docker-compose and communicating with docker containers for serving api and running flask separately but
+there was dependency on transfering onnx model from training part to torch serve container so i was not able to deploy two separate services. 
+
+References:
+- Krish Naik Videos
+- https://github.com/dimitreOliveira/torchserve_od_example/tree/main
