@@ -14,3 +14,10 @@ prepare_callbacks:
   root_dir: artifacts/prepare_callbacks
   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
   checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.pt
+
+training:
+  root_dir: artifacts/training
+  checkpoint_model_filepath:  artifacts/prepare_callbacks/checkpoint_dir/model.pt
+  trained_model_path: artifacts/training/model.pt
+  encoder_traindata: artifacts/training/encoder_traindata.pickle
+  onnx_model_path: artifacts/training/spaceship.onnx

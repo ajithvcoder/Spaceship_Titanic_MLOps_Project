@@ -23,7 +23,8 @@ list_of_files = [
     "setup.py",
     "research/trails.ipynb",
     "templates/index.html",
-    "torchserve"
+    "torchserve/models/.keep",
+    "torchserve/utils/.keep"
 ]
 
 for filepath in list_of_files:
