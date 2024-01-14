@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  local_data_file: artifacts/data_ingestion/data_spaceShip.csv
+  cloud_config_zipfile: secure-connect-spaceship-db.zip
+  authentication_token: spaceship_db-token.json
