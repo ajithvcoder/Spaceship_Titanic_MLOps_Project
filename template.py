@@ -24,7 +24,8 @@ list_of_files = [
     "research/trails.ipynb",
     "templates/index.html",
     "torchserve/models/.keep",
-    "torchserve/utils/.keep"
+    "torchserve/utils/.keep",
+    "torchserve/model-store/.keep"
 ]
 
 for filepath in list_of_files:

@@ -64,3 +64,14 @@ class DataIngestion:
                 delay *= 2
         else:
             logger.info(f"Failed connecting to astra/casandra db after {max_retries} attempt")
+
+def decodeData(data) -> dict:
+    decodedFeatures = {}
+    for key, val in data.items():
+        if key in ['Age','RoomService', 'FoodCourt', 'ShoppingMall', 'Spa', 'VRDeck']:
+            val = [float(val[0])]
+        elif key in ["CryoSleep", "VIP"]:
+            val = [val[0]]
+        decodedFeatures[key] = val
+    logger.info("data was decoded")
+    return decodedFeatures
