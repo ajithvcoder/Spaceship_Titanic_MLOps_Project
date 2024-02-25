@@ -1,5 +1,7 @@
 # Spaceship_Titanic_MLOps_Project
 
+**Youtube Playlist** : [Link here](https://www.youtube.com/playlist?list=PLaiyLZ9Xs1bzu1G0nWERv5gECjuoJUXVR)
+
 Predict which passengers are transported to an alternate dimension
 
 We will be concentraining on MLOps part only, topics like feature engineering, trying alternate models are given less importance.
